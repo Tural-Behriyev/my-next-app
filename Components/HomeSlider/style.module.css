@@ -1,0 +1,11 @@
+.paginationContainer {
+    position: absolute;
+    top: 34%;
+    left: 30px;
+    display: flex;
+    z-index: 100;
+  }
+
+  .textBtn{
+    margin-top: 10%;
+  }

@@ -1,0 +1,14 @@
+.WorkProduct {
+  background-color: #d8f1f0;
+}
+
+.WorkProduct h2 {
+  color: #061224;
+}
+
+.WorkProduct button {
+  color: #061224;
+  border: 1px solid #1064E5;
+  border-radius: 46px;
+  font-weight: bold;
+}

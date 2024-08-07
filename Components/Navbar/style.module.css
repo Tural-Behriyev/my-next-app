@@ -1,0 +1,12 @@
+.MenuItemLink{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.MenuItemLink a{
+    color: #061224;
+}
+
+.MenuItemLink :nth-child(6){
+    color: white !important;
+}

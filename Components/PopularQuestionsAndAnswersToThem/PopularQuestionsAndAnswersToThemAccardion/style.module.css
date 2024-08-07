@@ -1,0 +1,21 @@
+.question {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins";
+  line-height: 36px;
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.answer.show {
+  max-height: 9999px;
+  color: #ffffff;
+}
+.accardionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
