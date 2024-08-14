@@ -90,8 +90,8 @@ const Navbar = ({ onMenuToggle }) => {
                   className={`absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 w-40 transition-opacity duration-300 ${
                     activeDropdown === id ? "opacity-100 visible" : "opacity-0 invisible"
                   }`}
-                  onMouseEnter={() => setActiveDropdown(id)} // Keep dropdown open
-                  onMouseLeave={handleMouseLeave} // Close dropdown
+                  onMouseEnter={() => setActiveDropdown(id)}
+                  onMouseLeave={handleMouseLeave}
                 >
                   {item.subItems.map((subItem, subId) => (
                     <Link
